@@ -266,7 +266,7 @@ class redditpostliteralextraction():
                 oldestdate = redditlastpostupdate[0][0]
                 for date in redditlastpostupdate:
                     if date[0] < oldestdate:
-                        oldestdate = date
+                        oldestdate = date[0]
                 self.update_from_date = oldestdate
 
             else: # set to oldest date post
