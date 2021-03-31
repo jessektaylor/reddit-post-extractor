@@ -1,0 +1,7 @@
+psycopg2-binary
+pandas
+textblob
+celery
+nltk
+numpy
+
